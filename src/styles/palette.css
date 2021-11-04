@@ -1,6 +1,10 @@
 /* Define variables with the syntax --var-name: value. Commonly done on :root (= <html>), but possible on any element */
 :root {
     /* colors */
+
+    --color-white: rgb(255,255,255);
+    --color-black: rgb(0,0,0);
+
     --color-grey-1: rgb(100,100,100);
     --color-grey-2: rgb(120,120,120);
     --color-grey-3: rgb(150,150,150);
@@ -8,8 +12,26 @@
     --color-grey-5: rgb(190,190,190);
     --color-grey-6: rgb(210,210,210);
 
-    --color-white: rgb(255,255,255);
-    --color-black: rgb(0,0,0);
+    --f-2-grey: #f2f2f2;
+    --solitude: #ebecf0;
+    --porcelain: #f1f2f4;
+    --mercury: #e4e5e9;
+    --mystic: #e5e7eb;
+    --laventure: #a3b1c6;
+
+    --turqwhy: #00c8c8;
+    --system-color-blue: #007aff;
+    --light-purple: #b8c8f7;
+    --purplish: #7895e9;
+    --purpley: #6675e1;
+    --deep-purple: #514dd9;
+    --dark-blue-grey: #121538;
+
+    --cinebook: #f7003d;
+    --kfc: #c32132;
+    --tomato: #f04728;
+    --pumpkin-orange: #ff8900;
+    --yellow-orange: #ffb800;
     
     /* borders */
     --border: .1rem silver solid;

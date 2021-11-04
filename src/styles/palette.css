@@ -26,6 +26,7 @@
     --purpley: #6675e1;
     --deep-purple: #514dd9;
     --dark-blue-grey: #121538;
+    --dark-blue-grey-66: rgba(18, 21, 56, 0.66);
 
     --cinebook: #f7003d;
     --kfc: #c32132;
@@ -35,6 +36,13 @@
     
     /* borders */
     --border: .1rem silver solid;
+    --border-radius-card-m: 18px;
+
+    /* padding */
+    --padding-card-m: 10px 15px;
+
+    /* shadows */
+    --shadow-card-neo: 9px 9px 18px 0 rgba(163, 177, 198, 0.5), -9px -9px 18px 0 rgba(255, 255, 255, 0.7), -4px -4px 8px 0 rgba(255, 255, 255, 0.25), 5px 5px 5px 0 rgba(163, 177, 198, 0.25);
     
     /* fonts */
     --family: Arial, Helvetica, sans-serif; 

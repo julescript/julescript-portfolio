@@ -1,0 +1,10 @@
+.card-parent {
+    border-radius: var(--border-radius-card-m);
+    box-shadow: var(--shadow-card-neo);
+    background-color: var(--solitude);
+    padding: var(--padding-card-m);
+
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--dark-blue-grey-66);
+}

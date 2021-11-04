@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import Card from './components/Card';
 import Container from './components/Container';
 
 function App() {
   return (
     <Container>
-      <p>hello world</p>
+      <Card>
+        <div>julescript</div>
+      </Card>
     </Container>
   );
 }

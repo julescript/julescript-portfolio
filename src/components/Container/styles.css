@@ -1,0 +1,15 @@
+.container-parent {
+    background-color: var(--color-grey-6);;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.container-child {
+    background-color: var(--color-grey-5);
+    display: flex;
+    flex: 1;
+    max-width: 1000px;
+    padding: 0 40px;
+}
